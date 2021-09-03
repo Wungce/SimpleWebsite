@@ -1,0 +1,327 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.page-wrap {
+	width: 100%;
+}
+.top-nav-wrap {
+	width: 100%;
+}
+.first-top-nav {
+	width: 100%;
+	background-color: rgb(57, 57, 77);
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 1% 0%;
+	position: fixed;
+}
+.search-wrap {
+	width: 100%;
+}
+.search-bar {
+	width: 100%;
+	display: flex;
+	/* justify-content: center; */
+	margin-left: 25%;
+}
+button {
+	width: 10%;
+	padding: 1% 0%;
+}
+input {
+	width: 65%;
+	font-size: 16px;
+	padding: 1% 1%;
+}
+.first-top-nav-cont {
+	width: 45%;
+}
+.top-nav-ul {
+	display: flex;
+	margin-top: 2%;
+	list-style-type: none;
+	margin-left: 10%;
+	/* margin-left: 78%;   */
+}
+.top-nav-li {
+	margin-left: 40px;
+}
+.top-nav-li-hove:hover{
+	color: palevioletred;
+	text-shadow: 2px 2px 4px red;
+}
+.second-bottom-nav {
+	width: 100%;
+	background-color: rgb(156, 6, 136);
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.second-bottom-nav-cont-first {
+	width: 40%;
+	padding: 1% 0%;
+	margin-right: 10%;
+}
+.sec-bot-nav-fir-firt-div {
+	width: 100%;
+	display: flex;
+	color: white;
+}
+.log-img {
+	margin-left: 10%;
+	font-family: "Kaushan Script", cursive;
+	font-size: 50px;
+}
+.log-cont1 {
+	margin: 5% 10%;
+	font-family: "Gowun Dodum", sans-serif;
+	font-size: 17px;
+}
+.log-cont2 {
+	margin: 5% 0%;
+	font-family: "Gowun Dodum", sans-serif;
+	font-size: 17px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.my-dash:hover{
+	color: red;
+	text-shadow: 2px 2px 3px red;
+
+}
+.second-bottom-nav-cont-second {
+	width: 40%;
+	padding: 1% 0%;
+	margin-left: 10%;
+	display: flex;
+	font-family: "Gowun Dodum", sans-serif;
+	color: white;
+}
+.login1 {
+	margin: 5% 5%;
+}
+.login2 {
+	margin: 5% 5%;
+}
+.login3 {
+	margin: 5% 5%;
+}
+.login4 {
+	padding: 0% 3%;
+	margin: 5% 5%;
+	background-color: red;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 2px 4px 10px 1px rosybrown;
+}
+.body-wrap {
+	width: 100%;
+	padding: 1% 0%;
+	background-color: rgb(242, 243, 247);
+	font-family: "Gowun Dodum", sans-serif;
+}
+.cont-first-box-wrap {
+	width: 89%;
+	padding: 1% 0%;
+	margin-left: 5%;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+
+	display: flex;
+}
+.cont-box1 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.detail-product{
+	width: 100%;
+	line-height: 15px;
+}
+.detail-product-para{
+	color: black;
+	font-size: 16px;
+}
+.detail-product-sigle{
+	line-height: 30px;
+}
+.currency{
+	color: #f57224;
+	line-height: 40px;
+	font-size: 18px;
+}
+.price{
+	color: #f57224;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.cont-box2 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.cont-box3 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.cont-box4 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.cont-box5 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.cont-box6 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.cont-second-box-wrap {
+	width: 89%;
+	margin-top: 2%;
+	padding: 1% 0%;
+	margin-left: 5%;
+	background-color: white;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+
+	display: flex;
+}
+.second-cont-box1 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	border-radius: 15px;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+}
+.second-cont-box2 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	border-radius: 15px;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+}
+.second-cont-box3 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.second-cont-box4 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.second-cont-box5 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 0%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.second-cont-box6 {
+	width: 20%;
+	padding: 2% 1%;
+	margin: 1% 1%;
+	box-shadow: inset 1px 1px rgb(202, 200, 200), 6px 6px 3px rgb(202, 200, 200);
+	background-color: transparent;
+	border-radius: 15px;
+}
+.footer-wrap {
+	width: 100%;
+	background-color: rgb(13, 41, 74);
+	/* padding: 0% 0%; */
+	color: white;
+	font-family: "Gowun Batang", serif;
+}
+.footer-cont-box {
+	width: 89%;
+	margin-top: 2%;
+	/* padding: 1% 0%; */
+	margin-left: 5%;
+	/* background-color: white; */
+	display: flex;
+	justify-content: center;
+}
+.footer-con1 {
+	width: 15%;
+	/* background-color: violet; */
+	margin: 1% 0%;
+}
+.footer-con2 {
+	width: 15%;
+	/* background-color: violet; */
+	margin: 1% 1%;
+}
+.footer-con3 {
+	width: 15%;
+	/* background-color: violet; */
+	margin: 1% 0%;
+}
+.footer-con4 {
+	width: 16%;
+	/* background-color: violet; */
+	margin: 1% 1%;
+}
+.customer-care {
+	list-style-type: none;
+	text-align: center;
+}
+.make-money {
+	list-style-type: none;
+	text-align: center;
+}
+.get-know {
+	list-style-type: none;
+	text-align: center;
+}
+.let-us-help {
+	list-style-type: none;
+	text-align: center;
+}
+.footer-icon {
+	display: flex;
+	justify-content: center;
+}
+.footer-icon-cls {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+  
